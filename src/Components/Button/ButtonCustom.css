@@ -1,0 +1,26 @@
+.button-custom{
+    width: 187px;
+    height:44px ;
+    text-align: center;
+    font-size: 24px;
+    background: linear-gradient(45deg, #222222 0%, #222222 90%, transparent 90%);
+    border: none;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-custom:hover{
+    background: linear-gradient(45deg, #222222 0%, #222222 90%, transparent 90%);
+    cursor: pointer;
+}
+
+.button-custom img{
+    width: 19px;
+    text-align: center;
+
+}

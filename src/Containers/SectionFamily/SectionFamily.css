@@ -1,0 +1,193 @@
+.family {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 31px;
+    padding: 76px 80px 0 0;
+    height: 658px;
+
+}
+
+.family-texts h1 {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 62px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 74px;
+}
+
+.family-texts h1>span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 98px;
+}
+
+.family-texts p {
+    max-width: 814px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+}
+
+.be-part-of-it {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.number-family {
+    display: flex;
+    gap: 50px;
+}
+
+.data h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 74px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.data p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    width: 218px;
+}
+
+.images img {
+    position: relative;
+    top: 1px;
+    z-index: 100;
+}
+
+
+.images {
+    display: flex;
+}
+
+.retangule16 {
+    position: absolute;
+    top: 2268px;
+    left: 0;
+    z-index: 2;
+}
+
+.retangule17 {
+    position: absolute;
+    top: 2268px;
+    left: 20px;
+    z-index: 1;
+}
+
+.retangule18 {
+    position: absolute;
+    top: 2268px;
+    left: 55px;
+}
+
+
+
+@media (max-width:1440px) {
+    .family {
+        display: flex;
+        max-width: 1110px;
+        margin: 0 auto;
+        align-items: center;
+        gap: 31px;
+        padding: 76px 80px 60px 0;
+    }
+
+    .family-texts h1 {
+        font-family: 'Bungee Outline', cursive;
+        font-size: 62px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 74px;
+        max-width: 695px;
+
+    }
+
+    .family-texts h1>span {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 76px;
+        font-weight: 400;
+        line-height: 98px;
+    }
+
+    .family-texts p {
+        font-weight: 400;
+        font-size: 11px;
+        color: #fff;
+        line-height: 21px;
+    }
+
+    .be-part-of-it {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .number-family {
+        display: flex;
+        gap: 30px;
+    }
+
+    .data h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 74px;
+        color: #fff;
+        text-align: center;
+    }
+
+
+    .data p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #fff;
+        width: 200px;
+    }
+
+    .images img {
+        position: relative;
+        top: 31px;
+        z-index: 100;
+    }
+
+    .images {
+        display: flex;
+    }
+    
+    .retangule16 {
+        position: absolute;
+        top: 2231px;
+        left: 0;
+        z-index: 2;
+    }
+    
+    .retangule17 {
+        position: absolute;
+        top: 2231px;
+        left: 23px;
+        z-index: 1;
+    }
+    
+    .retangule18 {
+        position: absolute;
+        top: 2231px;
+        left: 62px;
+    }
+
+}
+

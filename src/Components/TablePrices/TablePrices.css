@@ -1,0 +1,194 @@
+.prices {
+    display: flex;
+    gap: 39px;
+    margin-top: 80px;
+}
+
+.about-prices {
+    width: 399px;
+    background-color: #000;
+}
+
+.about-prices:hover {
+    background-color: #FF0202;
+}
+.about-prices:hover .test a {
+    background-color: transparent;
+    border: 1px solid #FF0202;
+    color: #FF0202;
+}
+
+.about-prices:hover .tet{
+    display: block;
+}
+
+.about-prices img {
+    width: 399px;
+}
+
+.about-prices h2 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-left: 21px;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.test {
+    display: flex;
+    padding-left: 24px;
+    height: 83px;
+    align-items: center;
+    gap: 38px;
+    background-color: #B4B4B4;
+}
+
+.test h3 {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 176px;
+    color: #787878;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.test h3>span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.test a {
+    text-align: center;
+    width: 136px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #787878;
+    color: #787878;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 14px;
+}
+
+.part-recomended{
+    position: relative;
+}
+
+.tet{
+  background-color: #FF0202;
+  position: absolute;
+  width: 399px;
+  top: -39px;
+  display: none;
+
+}
+.tet h6{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 9px 0px;
+}
+
+@media (max-width:1440px){
+    .prices {
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        gap: 39px;
+        margin-top: 80px;
+    }
+    
+    .about-prices {
+        width: 359px;
+    }
+    
+    .about-prices:hover {
+        background-color: #FF0202;
+    }
+    .about-prices:hover .test a {
+        background-color: transparent;
+        border: 1px solid #FF0202;
+        color: #FF0202;
+    }
+    
+    .about-prices:hover .tet{
+        display: block;
+    }
+    
+    .about-prices img {
+        width: 359px;
+    }
+    
+    .about-prices h2 {
+        color: #fff;
+        font-size: 42px;
+        line-height: 50px;
+        font-weight: 400;
+        margin-left: 21px;
+        padding: 10px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    
+    .test {
+        display: flex;
+        padding-left: 24px;
+        height: 83px;
+        align-items: center;
+        gap: 20px;
+        background-color: #B4B4B4;
+    }
+    
+    .test h3 {
+        font-family: 'Montserrat', sans-serif;
+        max-width: 176px;
+        color: #787878;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+    
+    .test h3>span {
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .test a {
+        text-align: center;
+        width: 126px;
+        height: 50px;
+        font-size: 13px;
+        background-color: transparent;
+        border-radius: 50px;
+        border: 1px solid #787878;
+        color: #787878;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 21px;
+        padding: 14px;
+    }
+    
+    .part-recomended{
+        position: relative;
+    }
+    
+    .tet{
+      background-color: #FF0202;
+      position: absolute;
+      width: 359px;
+      top: -39px;
+      display: none;
+    }
+    .tet h6{
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 9px 0px;
+    }
+}

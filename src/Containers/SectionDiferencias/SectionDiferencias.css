@@ -1,0 +1,222 @@
+section {
+    background-color: #A03333;
+}
+
+.container-section {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 74px;
+    color: #fff;
+    margin-top: 164px;
+}
+
+.title h1>span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 98px;
+    color: #fff;
+}
+
+.about-differences {
+    display: flex;
+    margin-top: 107px;
+    margin-bottom: 150px;
+    gap: 25px;
+}
+
+.box-differences {
+    width: 320px !important;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 24px;
+}
+
+.box-differences:hover {
+    background-color: #222222;
+    transition: .5s ease;
+
+}
+
+.box {
+    position: relative;
+    padding: 0 23px 29px 24px;
+}
+
+.box h4 {
+    margin-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.box p {
+    margin-top: 11px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.box-differences>img {
+    width: 77px;
+    height: 77px;
+}
+
+.box button {
+    text-align: start;
+    margin-top: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+
+
+.box-differences:hover button {
+    background: linear-gradient(45deg, #ff0000 0%, #ff0000 90%, transparent 90%);
+}
+
+.box-differences button>img {
+    text-align: start;
+    width: 19px;
+    position: relative;
+    left: -46px;
+}
+
+.box-differences button>img {
+    text-align: start;
+    width: 15px;
+    left: -19px;
+}
+
+@media (max-width:1440px) {
+    section {
+        background-color: #A03333;
+    }
+
+    .container-section {
+        max-width: 1110px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title h1 {
+        font-family: 'Bungee Outline', cursive;
+        font-size: 62px;
+        font-weight: 400;
+        line-height: 74px;
+        color: #fff;
+        margin-top: 164px;
+    }
+
+    .title h1>span {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 82px;
+        font-weight: 400;
+        line-height: 98px;
+        color: #fff;
+    }
+
+    .about-differences {
+        display: flex;
+        margin-top: 107px;
+        margin-bottom: 150px;
+        gap: 25px;
+    }
+
+    .box-differences {
+        width: 320px !important;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        padding: 24px;
+    }
+
+    .box-differences:hover {
+        background-color: #222222;
+        transition: 1s ease;
+    }
+
+    .box-differences h4 {
+        margin-top: 10px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        color: #fff;
+    }
+
+    .box-differences p {
+        margin-top: 11px;
+        font-family: 'Montserrat', sans-serif;
+        max-width: 273px;
+        font-size: 11px;
+        line-height: 15px;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .box-differences>img {
+        width: 77px;
+        height: 77px;
+    }
+
+    .box-differences button {
+        text-align: start;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 400;
+        padding-left: 15px;
+        width: 130px;
+        height: 35px;
+    }
+
+    .box-differences button>img {
+        text-align: start;
+        width: 15px;
+        left: -19px;
+    }
+
+    .box-differences:hover button {
+        background: linear-gradient(45deg, #ff0000 0%, #ff0000 90%, transparent 90%);
+    }
+
+    .box-differences button>img {
+        text-align: start;
+        position: relative;
+        text-align: start;
+        width: 15px;
+        left: -19px;
+    }
+
+}

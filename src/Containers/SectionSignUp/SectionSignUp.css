@@ -1,0 +1,135 @@
+.container-sign-up {
+    background-color: #1E1E1E;
+}
+
+.sign-up {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    height: 480px;
+
+}
+
+.contact h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 82px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 98px;
+}
+
+.contact p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+input {
+    width: 234px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(45deg, #fff 0%, #fff 90%, transparent 90%);
+}
+
+input::placeholder {
+    padding-left: 18px;
+}
+
+.contact>button {
+    margin-top: 30px;
+    width: 234px;
+    height: 42px;
+    background-color: #ff3939;
+    background: linear-gradient(45deg, #ff3939 0%, #ff3939 90%, transparent 90%);
+}
+
+.model-woman {
+    position: relative;
+    left: 60px;
+    bottom: 70px;
+}
+
+@media (max-width:1440px) {
+    .container-sign-up {
+        background-color: #1E1E1E;
+    }
+
+    .sign-up {
+        display: flex;
+        max-width: 1110px;
+        margin: 0 auto;
+        align-items: center;
+        height: 480px;
+
+    }
+
+    .contact h1 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 82px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 98px;
+    }
+
+    .contact p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #fff;
+    }
+
+    form {
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    input {
+        width: 232px;
+        height: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #fff;
+        border: none;
+        background: linear-gradient(45deg, #1E1E1E 0%, #1E1E1E 90%, transparent 90%);
+    }
+
+    .input {
+        padding: 1px;
+        width: 234px;
+        height: 42px;
+        background: linear-gradient(45deg, #fff 0%, #fff 90%, transparent 90%);
+
+    }
+
+    input::placeholder {
+        padding-left: 18px;
+    }
+
+    .contact>button {
+        margin-top: 30px;
+        width: 234px;
+        height: 42px;
+        background-color: #ff3939;
+        background: linear-gradient(45deg, #ff3939 0%, #ff3939 90%, transparent 90%);
+    }
+
+    .model-woman {
+        position: relative;
+        left: 90px;
+        bottom: 80px;
+    }
+}

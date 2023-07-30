@@ -1,0 +1,34 @@
+.section-prices {
+    background-color: #222222;
+    height: 657px;
+    width: 100%;
+}
+
+.container-prices {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.container-prices h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 82px;
+    color: #fff;
+    line-height: 98px;
+    font-weight: 400;
+}
+
+
+@media (max-width:1440px) {
+   
+    .container-prices h1 {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 82px;
+        color: #fff;
+        line-height: 98px;
+        font-weight: 400;
+    }
+
+}
